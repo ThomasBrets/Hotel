@@ -10,7 +10,7 @@ const Rooms = () => {
   const { rooms } = useContext(roomContext);
 
   // console.log("ROOMS", rooms);
-
+ 
   return (
     <section className="bg-pink-200 py-24">
       <div className="container mx-auto lg:px-0" >
