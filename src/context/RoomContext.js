@@ -1,4 +1,5 @@
-import React, { createContext, useEffect, useState } from "react";
+import React from "react" 
+import { createContext, useState } from "react";
 
 // Data
 import { roomData } from "../data";
