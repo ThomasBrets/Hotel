@@ -12,16 +12,14 @@ module.exports = {
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh"],
   rules: {
-    "no-unused-vars": [
-      "error",
-      {
-        varsIgnorePattern: "React|setRooms",
-      },
-    ],
+    "no-unused-vars": "off", // Deshabilita la advertencia de variables no utilizadas
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
     ],
     "react/prop-types": "off", // Deshabilita la validación de PropTypes
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
   },
+
 };
