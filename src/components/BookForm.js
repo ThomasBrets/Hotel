@@ -2,7 +2,7 @@ import React from 'react';
 
 // Components
 import CheckIn from "../components/CheckIn"
-import CheckOut from "../components/KidsDropdown"
+import CheckOut from "../components/CheckOut"
 import AdultsDropdown from "../components/AdultsDropdown"
 import KidsDropdown from "../components/KidsDropdown"
 
