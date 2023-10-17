@@ -9,8 +9,6 @@ import Room from "./Room";
 const Rooms = () => {
   const { rooms } = useContext(roomContext);
 
-
- 
   return (
     <section className="py-24">
       <div className="container mx-auto lg:px-0" >

@@ -7,7 +7,7 @@ import { Menu } from "@headlessui/react";
 import { BsChevronDown } from "react-icons/bs";
 
 const lis = [
-  { name: "None" },
+  { name: "0 kids" },     
   { name: "1 kid" },
   { name: "2 kids" },
   { name: "3 kids" },
@@ -20,7 +20,7 @@ const KidsDropdown = () => {
     <Menu as="div" className="w-full h-full relative bg-white">
       {/* btn */}
       <Menu.Button className="w-full h-full flex items-center justify-between px-8">
-        {kids}
+        {kids === "0 kids" ? "None" : kids}
         <BsChevronDown className="text-base text-accent-hover" />
       </Menu.Button>
 
