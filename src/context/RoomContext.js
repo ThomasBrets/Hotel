@@ -25,7 +25,7 @@ const RoomProvider = ({ children }) => {
     setRooms(newRooms);
   };
   
-  console.log(rooms);
+  // console.log(rooms);
 
   // console.log(`adults ${adults}, kids ${kids}`);
   // console.log("DATA", rooms);
