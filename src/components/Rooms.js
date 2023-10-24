@@ -13,7 +13,7 @@ const Rooms = () => {
   const { rooms, loading } = useContext(roomContext);
 
   return (
-    <section className="py-24">
+    <section id="#rooms" className="py-24">
       {/* overlay && spinner */}
       {loading && (
         <div className="h-screen fixed bottom-0 top-0 bg-black/90 w-full z-50 flex items-center justify-center">

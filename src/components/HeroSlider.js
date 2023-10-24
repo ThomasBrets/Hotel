@@ -10,6 +10,9 @@ import "swiper/css/effect-fade";
 // import required modules
 import { EffectFade, Autoplay } from "swiper";
 
+// Utils
+import { scrollToSection } from "../utils/scrollToSection"
+
 // images
 import Img1 from "../assets/img/heroSlider/1.jpg";
 import Img2 from "../assets/img/heroSlider/2.jpg";
@@ -58,7 +61,9 @@ const HeroSlider = () => {
               <h1 className="font-primary uppercase tracking-[2px] text-[32px] max-w-[920px] lg:text-[68px] leading-tight mb-6">
                 {title}
               </h1>
-              <button className="btn btn-primary btn-lg mx-auto rounded">
+              <button 
+              className="btn btn-primary btn-lg mx-auto rounded"
+              onClick={() => scrollToSection('#rooms')}>
                 {btnText}
               </button>
             </div>
