@@ -6,7 +6,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "../datepicker.css";
 // icons
-import { BsCalendar } from "react-icons/bs"
+import { BsCalendar } from "react-icons/bs";
 
 const CheckOut = () => {
   const [endDate, setEndDate] = useState(false);
@@ -15,11 +15,11 @@ const CheckOut = () => {
       {/* icon */}
       <div className="absolute z-10 pr-8">
         <div>
-      <BsCalendar className="text-accent text-base" />
+          <BsCalendar className="text-accent text-base" />
         </div>
       </div>
       <DatePicker
-        className="w-full h-full"
+        className="w-full h-full font-primary text-accent text-lg"
         selected={endDate}
         placeholderText="Check Out"
         onChange={(date) => setEndDate(date)}

@@ -15,11 +15,11 @@ const CheckIn = () => {
       {/* icon */}
       <div className="absolute z-10 pr-8">
         <div>
-      <BsCalendar className="text-accent text-base" />
+      <BsCalendar className="text-accent" />
         </div>
       </div>
       <DatePicker
-        className="w-full h-full"
+        className="w-full h-full font-primary text-accent text-lg"
         selected={startDate}
         placeholderText="Check in"
         onChange={(date) => setStartDate(date)}

@@ -12,8 +12,8 @@ import { roomData } from "../data";
 const BookForm = () => {
   const { handleClick } = useContext(roomContext)
 
-  return <form className='h-[300px] bg-slate-300 w-full lg:h-[70px]'>
-    <div className='flex flex-col w-full h-full lg:flex-row'>
+  return <form className='h-[300px] bg-black w-full lg:h-[70px]'>
+    <div className='flex flex-col gap-y-3 w-full h-full lg:flex-row'>
       <div className="flex-1 border-r">
         <CheckIn />
       </div>
