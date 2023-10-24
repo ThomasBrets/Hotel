@@ -1,5 +1,5 @@
 import React from 'react';
-// Logo
+// White Logo
 import logoWhite from "../assets/img/logo-white.svg"
 
 
